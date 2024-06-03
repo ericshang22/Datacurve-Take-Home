@@ -10,6 +10,7 @@ Base = declarative_base()
 
 # One table database that contains all submitted code and corresponding output
 
+
 class Submissions(Base):
     __tablename__ = "submissions"
     id = Column(Integer, primary_key=True, index=True)
